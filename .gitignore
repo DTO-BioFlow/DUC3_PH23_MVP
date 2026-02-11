@@ -1,6 +1,4 @@
-*.RData
-*.Rhistory
-*.Rproj.user
 .Rproj.user
-*log*
-*cache
+.Rhistory
+.RData
+.Ruserdata
