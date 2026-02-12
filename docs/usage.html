@@ -29,11 +29,21 @@
     </h2>
 
     <p>
-        You can install the software. <br>
-
+        You can install the software by running
+    </p>
+    <p>
         <code>
-            do some computer commands
+            init.sh
         </code>
+    </p>
+    <p>
+        This will: 
+        <ul>
+            <li>Download PelHabMSFD from its native <a href= "https://github.com/IFREMER-LERBL/PelHabMSFD">repository</a> -release 2023.</li>
+            <li>Install all dependencies and PelHabMSFD pacakge</li>
+        </ul>
+    </p>
+
     </p>
     <h2>
         Launch the software
@@ -41,12 +51,23 @@
 
     <p>
         Run this in R:
-        <br>
+    </p>
+    <P>
         <code>
-            library(PelHabMSFD) <br>
+            library(PelHabMSFD)
+            <br>
             D1_MSFD()
         </code>
+    </P>
+    <p>
+        In headless environments (onyxia):
     </p>
+    <p>
+        <code>
+            xvfb-run -s "-screen 0 1024x768x24" Rscript launch
+        </code>
+    </p>
+     
     <h2> 
         Interacting using GUI
     </h2>
