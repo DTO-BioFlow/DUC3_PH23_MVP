@@ -11,7 +11,7 @@ see [GitHub Pages website](https://dto-bioflow.github.io/DUC3_PH23_MVP/index.htm
 
 ## Install
 Install dependencies 
-Run ```init.sh```
+Run ```install.sh```
 
 This will: 
 - download PelHabMSFD from its native [repository](https://github.com/IFREMER-LERBL/PelHabMSFD) -release 2023.
