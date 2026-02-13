@@ -51,6 +51,9 @@
     <h2>
         Launch the software
     </h2>
+	<h3>
+        On desktop
+    </h3>
 
     <p>
         Run <code>launch.R</code> or these commands in R:
@@ -62,13 +65,21 @@
             D1_MSFD()
         </code>
     </P>
-    <p>
+    <h3>
         In headless environments (onyxia):
-    </p>
+    </h3>
+
+    
     <p>
         <code>
+            sudo apt update
+            <br>
+            sudo apt install -y xvfb
+            <br>
             xvfb-run -s "-screen 0 1024x768x24" Rscript launch
         </code>
+	<br>
+        Issue: this is running the software but the GUI is not rendered.
     </p>
      
     <h2> 
